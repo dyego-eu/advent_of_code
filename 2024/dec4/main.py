@@ -1,3 +1,5 @@
+# https://adventofcode.com/2024/day/4
+
 import re
 from pathlib import Path
 

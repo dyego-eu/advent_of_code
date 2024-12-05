@@ -1,3 +1,5 @@
+# https://adventofcode.com/2023/day/6
+
 import re
 from math import sqrt, floor
 from typing import NamedTuple

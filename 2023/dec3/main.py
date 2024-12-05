@@ -1,3 +1,5 @@
+# https://adventofcode.com/2023/day/3
+
 import re
 from typing import NamedTuple
 from pathlib import Path
