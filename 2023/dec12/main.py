@@ -80,11 +80,11 @@ def recursive_count_arrangements(
         # and not be counting. This is why all strings must be terminated by a "."
         return not key and not current_count
 
-    results = 0
     # This point is where you create a split-reality: When ? is found, you
     # recursively advance both with "#" and ".", effectively creating 2 parallel realities
     next_possible_chars = arrangement[0] if arrangement[0] != "?" else "#."
 
+    results = 0
     for next_char in next_possible_chars:
         # Recursion advances characters in the list
 
