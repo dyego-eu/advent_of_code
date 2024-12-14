@@ -71,13 +71,14 @@ def part_one(machines: list[Machine]) -> int:
 
     return int(total)
 
+
 def part_two(machines: list[Machine]) -> int:
     total = 0
 
     for machine in machines:
         machine.rx += 10000000000000
         machine.ry += 10000000000000
-        
+
         if (
             machine.compute_A_presses() is not None
             and machine.compute_B_presses() is not None
@@ -88,11 +89,11 @@ def part_two(machines: list[Machine]) -> int:
 
     return int(total)
 
+
 def main():
     machines = read_machines()
     print(part_one(machines))
     print(part_two(machines))
-    
 
 
 if __name__ == "__main__":
